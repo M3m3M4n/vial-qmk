@@ -26,7 +26,7 @@ enum {
     TD_DEL_INS
 };
 
-qk_tap_dance_action_t tap_dance_actions[] = {
+tap_dance_action_t tap_dance_actions[] = {
     [TD_PGDN_PGUP] = ACTION_TAP_DANCE_DOUBLE(KC_PGDN, KC_PGUP),
     [TD_END_HOME]  = ACTION_TAP_DANCE_DOUBLE(KC_END, KC_HOME),
     [TD_DEL_INS]   = ACTION_TAP_DANCE_DOUBLE(KC_DEL, KC_INS)
